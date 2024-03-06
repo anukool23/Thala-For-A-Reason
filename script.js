@@ -8,6 +8,7 @@ submitBtn.addEventListener('click',function(){
 });
 
 // Chcking weather the provided data is string or number
+
 function checkValueType(input) {
     if (!isNaN(parseFloat(input)) && isFinite(input)) {
         checkNumData(input)
